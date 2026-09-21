@@ -24,9 +24,6 @@ def test_post_json_raises_clear_error_on_invalid_json(monkeypatch):
         model.post_json("https://provider.test/v1/chat", "key", {})
 
 
-
-
-
 def page():
     state = {
         "url": "https://example.test/",
